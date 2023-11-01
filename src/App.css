@@ -1,0 +1,78 @@
+html {
+  height: 100%;
+  min-height: 100%;
+}
+body {
+  margin: 0;
+  height: 100%;
+  min-height: 100%;
+  font-family: sans-serif;
+}
+
+#root {
+  height: 100%;
+}
+
+.app {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background-color: #fff;
+  height: 100%;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 25vw;
+  background-color: #C9CFCF;
+  border: 2px solid #748181;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.title {
+  all: unset;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.description {
+  all: unset;
+}
+
+.wave-length {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+}
+
+.wave-length-input {
+  all: unset;
+  border: 2px solid #939F9F;
+  margin: 2px;
+  flex: 1;
+  border-radius: 1rem;
+  background: linear-gradient(
+    -90deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(255, 255, 0, 1) 33%,
+    rgba(0, 192, 255, 1) 66%,
+    rgba(192, 0, 255, 1) 100%
+  );
+}
+
+.canvas {
+  width: fit-content;
+  background-color: #F4F5F5;
+  border-radius: 1rem;
+  overflow: hidden;
+  border: 2px solid #748181;
+}
+
+.name {
+  margin-top: 2rem;
+}

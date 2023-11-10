@@ -5,4 +5,5 @@ import { viteSingleFile } from "vite-plugin-singlefile";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), viteSingleFile()],
+  base: '/visualization-dispersion/'
 })

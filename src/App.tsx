@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Layer, Rect, Line, Stage } from "react-konva";
+import { Layer, Rect, Line, Stage, Text } from "react-konva";
 import "./App.css";
 
 function App() {
@@ -20,6 +20,8 @@ function App() {
             entryAngle={entryAngle}
             refractionAngle={refractionAngle}
           />
+          <Text x={10} y={10} text="Medium 1" fill="#333" fontSize={18}></Text>
+          <Text x={410} y={10} text="Medium 2" fill="#333" fontSize={18}></Text>
         </Layer>
       </Stage>
       <div className="controls">
